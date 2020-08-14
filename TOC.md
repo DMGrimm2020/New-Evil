@@ -6,4 +6,6 @@ order: 1
 ---
 
 # Table of Contents
-1. [Monsters ... 2](monsters.md)
+### [Monsters and NPCs .. 2](monsters.md)
+#### [D ... 2](monsters.md)
+Dwarf ... 2 [](monsters.md)
