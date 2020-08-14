@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <compendium>
-  <monster id="bf3c6d90-7f94-5605-b666-47fded8d147c">
-    <name>Dwarf</name>
-    <slug>dwarf</slug>
+  <monster id="65ead6d3-8534-5df8-9744-bbcff8fa3cbe">
+    <name>Dwarven Citizen</name>
+    <slug>dwarven-citizen</slug>
     <size>M</size>
     <type>humanoid (dwarf)</type>
     <alignment>lawful good</alignment>
@@ -35,7 +35,7 @@
       <text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
     </action>
   </monster>
-  <monster id="9d842fd7-a7d1-5aa4-8720-6055a43db83e">
+  <monster id="85ffe0fc-27b9-5b24-ba90-1542364bbec2">
     <name>Elf</name>
     <slug>elf</slug>
     <size>M</size>
@@ -70,7 +70,7 @@
       <text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
     </action>
   </monster>
-  <monster id="2f989fe2-5383-53e9-a309-169d23acf0b2">
+  <monster id="74c83c97-4859-5642-95cb-1e02f780090c">
     <name>Gnome</name>
     <slug>gnome</slug>
     <size>S</size>
@@ -105,7 +105,7 @@
       <text>Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
     </action>
   </monster>
-  <monster id="3cecfeb1-e62f-5a2d-804a-deae05db7dee">
+  <monster id="afe09f42-678b-593c-92e6-34742512c037">
     <name>Infant Remorhaz</name>
     <slug>infant-remorhaz</slug>
     <size>M</size>
@@ -135,7 +135,7 @@
       <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) piercing damage plus 3 (1d6) fire damage.</text>
     </action>
   </monster>
-  <monster id="37683e54-27a2-5ee0-80f6-7894181bf353">
+  <monster id="13794d61-4d63-5beb-a10c-14959e483ac6">
     <name>Ancient Remorhaz</name>
     <slug>ancient-remorhaz</slug>
     <size>G</size>
