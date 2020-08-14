@@ -29,8 +29,8 @@ senses: darkvision 60 ft., passive Perception 10
 languages: Common, Dwarvish
 challenge: 1 
 environments: hill, mountain, underdark
-image: Monster.jpg
-token: MonsterToken.png
+image: 
+token: 
 traits:
   - name: Dwarven Resilience
     description: "The dwarf has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
@@ -64,8 +64,8 @@ senses: darkvision 60 ft., passive Perception 12
 languages: Common, Elvish
 challenge: 1/4
 environments: forest, underdark
-image: Monster.jpg
-token: MonsterToken.png
+image: 
+token: 
 traits:
   - name: Fey Ancestry
     description: "The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep."
@@ -101,8 +101,8 @@ senses: darkvision 60 ft., passive Perception 12
 languages: Common, Gnomish
 challenge: 1/2
 environments: hill, forest, underdark
-image: Monster.jpg
-token: MonsterToken.png
+image: 
+token: 
 traits:
   - name: Gnome Cunning
     description: "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
@@ -136,8 +136,8 @@ senses: darkvision 30 ft. tremorsense 30 ft., passive Perception 10
 languages: — 
 challenge: 1/4
 environments: arctic
-image: Monster.jpg
-token: MonsterToken.png
+image: 
+token: 
 traits:
   - name: Heated Body
     description: "A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage."
@@ -171,8 +171,8 @@ senses: darkvision 60 ft. tremorsense 60 ft., passive Perception 10
 languages: — 
 challenge: 20
 environments: arctic
-image: Monster.jpg
-token: MonsterToken.png
+image: 
+token: 
 traits:
   - name: Heated Body
     description: "A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 21 (4d6) fire damage."
