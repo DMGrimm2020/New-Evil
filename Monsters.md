@@ -9,8 +9,8 @@ order: 2
 
 ```Monster {.gray}
 id: 
-name: Dwarf
-slug: dwarf
+name: Dwarven Citizen
+slug: dwarven-citizen
 size: Medium
 type: humanoid (dwarf)
 alignment: lawful good
