@@ -44,8 +44,8 @@ This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
 
 ```Monster {.gray}
 id: 
-name: Elf
-slug: elf
+name: Elven Citizen
+slug: elven-citizen
 size: Medium
 type: humanoid (elf)
 alignment: chaotic good
@@ -72,7 +72,7 @@ traits:
 actions:
   - name: Shortsword
     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 55 (1d6 + 2) piercing damage."  
-  - name: Handaxe
+  - name: Longbow
     description: "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
 ```
 This is your everyday elven citizen. Environments: Forest, Underdark
@@ -81,8 +81,8 @@ This is your everyday elven citizen. Environments: Forest, Underdark
 
 ```Monster {.gray}
 id: 
-name: Gnome
-slug: gnome
+name: Gnomish Citizen
+slug: gnomish-citizen
 size: Small
 type: humanoid (gnome)
 alignment: neutral good
@@ -110,9 +110,9 @@ actions:
   - name: Shortsword
     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."  
   - name: Hand Crossbow
-    description: "Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+    description: "Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
 ```
-This is your everyday dwarven citizen. Environments: Hill, Forest, Underdark
+This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
 ```Monster {.gray}
 id: 
