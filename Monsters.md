@@ -2,13 +2,13 @@
 name: Monsters
 slug: monsters
 pdf-page-style: multi-column
-order: 2
+order: 3
 ---
 
 # Monsters
 
 ```Monster {.gray}
-id: 
+id: 6acee4c0-6aed-5a3c-bd07-91518499c078
 name: Dwarven Citizen
 slug: dwarven-citizen
 size: Medium
@@ -43,7 +43,7 @@ actions:
 This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
 
 ```Monster {.gray}
-id: 
+id: ba81ec4e-a30d-5f3a-a5e7-c63fc3554327
 name: Elven Citizen
 slug: elven-citizen
 size: Medium
@@ -80,7 +80,7 @@ This is your everyday elven citizen. Environments: Forest, Underdark
 (print-page)
 
 ```Monster {.gray}
-id: 
+id: cc5a8ec9-d81e-53f1-a62b-ae26994481fe
 name: Gnomish Citizen
 slug: gnomish-citizen
 size: Small
@@ -115,7 +115,7 @@ actions:
 This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
 ```Monster {.gray}
-id: 
+id: b2601dbd-5406-5dd2-bea5-7bf136988683
 name: Infant Remorhaz
 slug: infant-remorhaz
 size: Medium
@@ -150,7 +150,7 @@ The heat secretion of a remorhaz, thrym, is valuable as a component for heat-rel
 (print-page)
 
 ```Monster {.gray}
-id: 
+id: 910201f8-0ce0-54ce-9ec1-82230c4e8837
 name: Ancient Remorhaz
 slug: ancient-remorhaz
 size: Gargantuan
