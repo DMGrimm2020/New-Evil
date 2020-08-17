@@ -32,6 +32,8 @@ order: 4
 | Silver (SP) | 1/40 | 1/4 | .4 | 4 |
 | Copper (CP) | 1/400 | 1/40 | 1/4 | 0 |
 
+(print-column)
+
 ### Currency To Treasure Echange Rate
 | Coin | PP | GP | SP | CP |
 |:--:|:--:|:--:|:--:|:--:|
