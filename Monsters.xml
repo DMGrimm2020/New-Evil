@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="NO">
+    
+    <monster>
+		<name>Dwarven Citizen</name>
+		<size>M</size>
+		<type>humanoid (dwarf)</type>
+		<alignment>lawful good</alignment>
+		<ac>16 (scale mail, shield)</ac>
+		<hp>26 (4d8 + 4)</hp>
+		<speed>25 ft.</speed>
+		<str>13</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>9</cha>
+		<role>enemy</role>
+		<resistances>poison</resistances>
+		<senses>darkvision 60 ft.</senses>
+		<passive>10</passive>
+		<languages>Common, Dwarvish</languages>
+		<cr>1</cr>
+        <environment>Hill, Mountain, Underdark</environment>
+		<trait>
+            <name>Dwarven Resilience</name>
+			<text>The dwarf has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+        </trait>
+		<action>
+			<name>Battleaxe</name>
+			<text>elee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
+			<attack>Battleaxe|3|1d8+1</attack>
+		</action>
+		<action>
+			<name>Handaxe</name>
+			<text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+			<attack>Handaxe|3|1d6+1</attack>
+		</action>
+		<description>This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark</description>
+	</monster>
+
+</compendium>
