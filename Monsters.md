@@ -8,7 +8,7 @@ order: 3
 # Monsters
 
 ```Monster {.gray}
-id: 6acee4c0-6aed-5a3c-bd07-91518499c078
+id: c2e2b5a0-3c38-5057-94f9-a74fb0494fb4
 name: Dwarven Citizen
 slug: dwarven-citizen
 size: Medium
@@ -43,7 +43,7 @@ actions:
 This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
 
 ```Monster {.gray}
-id: ba81ec4e-a30d-5f3a-a5e7-c63fc3554327
+id: 1ede79f5-6690-5071-8ab1-530f41b375e9
 name: Elven Citizen
 slug: elven-citizen
 size: Medium
@@ -80,7 +80,7 @@ This is your everyday elven citizen. Environments: Forest, Underdark
 (print-page)
 
 ```Monster {.gray}
-id: cc5a8ec9-d81e-53f1-a62b-ae26994481fe
+id: 1d4c3847-a0bd-5e11-a298-19715864f880
 name: Gnomish Citizen
 slug: gnomish-citizen
 size: Small
@@ -114,8 +114,22 @@ actions:
 ```
 This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
+### Aging NPC's
+| Age | Str | Dex | Con | Int | Wis | Cha |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Infant    | +2 | +0 | +1 | +1 | +1 | +1 |
+| Young     | +2 | +0 | +1 | +1 | +1 | +1 |
+| Adult     | +2 | +0 | +1 | +1 | +1 | +1 |
+| Middle    | -2 | +0 | +1 | +1 | +1 | +1 |
+| Old       | -2 | +0 | +1 | +1 | +1 | +1 |
+| Venerable | -2 | +0 | +1 | +1 | +1 | +1 |
+
+For those that want to have differnt race's age's. Go two size's down off the original creature's stats.
+
+*Examples are Infant Orc, Young Orc, Adult Orc is found on MM p.246, Middle Orc, Old Orc, & Venerable Orc.*
+
 ```Monster {.gray}
-id: 
+id: 414800b1-dad9-5bf6-acba-bfb3b9d310e2
 name: Infant Orc
 slug: infant-orc
 size: Tiny
@@ -150,7 +164,7 @@ This is infant orc entering the world. Environments: Arctic, Forest, Grassland, 
 (print-page)
 
 ```Monster {.gray}
-id: 
+id: f073cd3e-5132-5451-be13-1cd26ac9bc06
 name: Young Orc
 slug: young-orc
 size: Small
@@ -185,7 +199,7 @@ actions:
 This is young orc just starting out in life. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
 ```Monster {.gray}
-id: 
+id: 1d9ee0ff-2972-5083-b731-d30cd21cd142
 name: Middle Orc
 slug: middle-orc
 size: Medium
@@ -222,7 +236,7 @@ This is middle age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain,
 (print-page)
 
 ```Monster {.gray}
-id: 
+id: 8d1884cc-416f-5a4c-a216-486e1e4567a9
 name: Old Orc
 slug: old-orc
 size: Medium
@@ -257,7 +271,7 @@ actions:
 This is old age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
 ```Monster {.gray}
-id: 
+id: 9390020d-7689-5664-94ef-850b8c509595
 name: Venerable Orc
 slug: venerable-orc
 size: Medium
@@ -294,7 +308,7 @@ This is venerable age orc. Environments: Arctic, Forest, Grassland, Hill, Mounta
 (print-page)
 
 ```Monster {.gray}
-id: b2601dbd-5406-5dd2-bea5-7bf136988683
+id: a096ab30-2a9f-5289-b316-884956287d9c
 name: Infant Remorhaz
 slug: infant-remorhaz
 size: Medium
@@ -329,7 +343,7 @@ The heat secretion of a remorhaz, thrym, is valuable as a component for heat-rel
 (print-page)
 
 ```Monster {.gray}
-id: 910201f8-0ce0-54ce-9ec1-82230c4e8837
+id: 1a0f88ab-232c-5971-8c52-75398bd0df74
 name: Ancient Remorhaz
 slug: ancient-remorhaz
 size: Gargantuan
@@ -359,7 +373,7 @@ actions:
   - name: Bite
     description: "Melee Weapon Attack: +16 to hit, reach 5 ft., one target. Hit: 59 (9d10 + 10) piercing damage plus 21 (4d6) fire damage. If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the remorhaz can't bite another target."  
   - name: Swallow
-    description: "The remorhaz makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 28 (8d6) acid damage at the start of each of the remorhaz's turns." 
+    description: "The remorhaz makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 28 (8d6) acid damage at the start of each of the remorhaz's turns."
   - description: "If the remorhaz takes 40 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 15 feet of the remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."  
 ```
 The heat secretion of a remorhaz, thrym, is valuable as a component for heat-related magical items and can be sold to alchemists for 5-10 gold pieces per flask. The remorhaz will contain 10 flasks worth of thrym per Hit Die. Roll (1d100) with 25 percent chance of a mate and with (1d2) eggs. The eggs value are at 500 gp. Environments: Arctic
