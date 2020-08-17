@@ -12,11 +12,21 @@ order: 1
 
 [Elven Citizen ... 4](/Monsters.md)
 
-[Gnomish gnomish ... 5](/Monsters.md)
+[Gnomish Citizen ... 5](/Monsters.md)
 
-[Infant Remorhaz ... 5](/Monsters.md)
+[Infant Orc ... 5](/Monsters.md)
 
-[Ancient Remorhaz ... 6](/Monsters.md)
+[Young Orc ... 6](/Monsters.md)
+
+[Middle Orc ... 7](/Monsters.md)
+
+[Old Orc ... 7](/Monsters.md)
+
+[Venerable Orc ... 5](/Monsters.md)
+
+[Infant Remorhaz ... 8](/Monsters.md)
+
+[Ancient Remorhaz ... 9](/Monsters.md)
 
 ### [Currency Table Chart .. 7](/CurrencyTableChart.md)
 #### []()
