@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<compendium>
+  <monster id="c2e2b5a0-3c38-5057-94f9-a74fb0494fb4">
+    <name>Dwarven Citizen</name>
+    <slug>dwarven-citizen</slug>
+    <size>M</size>
+    <type>humanoid (dwarf)</type>
+    <alignment>lawful good</alignment>
+    <ac>16 (scale mail, shield)</ac>
+    <hp>26 (4d8 + 4)</hp>
+    <speed>25 ft.</speed>
+    <str>13</str>
+    <dex>11</dex>
+    <con>14</con>
+    <int>11</int>
+    <wis>10</wis>
+    <cha>9</cha>
+    <role>enemy</role>
+    <resist>poison</resist>
+    <senses>darkvision 60 ft., passive Perception 10</senses>
+    <passive>9</passive>
+    <languages>Common, Dwarvish</languages>
+    <cr>1</cr>
+    <environment>hill, mountain, underdark</environment>
+    <trait>
+      <name>Dwarven Resilience</name>
+      <text>The dwarf has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.</text>
+    </trait>
+    <action>
+      <name>Battleaxe</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.</text>
+    </action>
+    <action>
+      <name>Handaxe</name>
+      <text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage.</text>
+    </action>
+  </monster>
+  <monster id="1ede79f5-6690-5071-8ab1-530f41b375e9">
+    <name>Elven Citizen</name>
+    <slug>elven-citizen</slug>
+    <size>M</size>
+    <type>humanoid (elf)</type>
+    <alignment>chaotic good</alignment>
+    <ac>14 (studded leather armor)</ac>
+    <hp>13 (3d8)</hp>
+    <speed>30 ft.</speed>
+    <str>10</str>
+    <dex>14</dex>
+    <con>10</con>
+    <int>11</int>
+    <wis>11</wis>
+    <cha>11</cha>
+    <role>enemy</role>
+    <skill>Perception +2, Stealth +4</skill>
+    <senses>darkvision 60 ft., passive Perception 12</senses>
+    <passive>9</passive>
+    <languages>Common, Elvish</languages>
+    <cr>1/4</cr>
+    <environment>forest, underdark</environment>
+    <trait>
+      <name>Fey Ancestry</name>
+      <text>The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep.</text>
+    </trait>
+    <action>
+      <name>Shortsword</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 55 (1d6 + 2) piercing damage.</text>
+    </action>
+    <action>
+      <name>Longbow</name>
+      <text>Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="1d4c3847-a0bd-5e11-a298-19715864f880">
+    <name>Gnomish Citizen</name>
+    <slug>gnomish-citizen</slug>
+    <size>S</size>
+    <type>humanoid (gnome)</type>
+    <alignment>neutral good</alignment>
+    <ac>16 (chain shirt, shield)</ac>
+    <hp>16 (3d6 + 6)</hp>
+    <speed>25 ft.</speed>
+    <str>15</str>
+    <dex>13</dex>
+    <con>14</con>
+    <int>12</int>
+    <wis>10</wis>
+    <cha>9</cha>
+    <role>enemy</role>
+    <skill>Investigation +3, Perception +2</skill>
+    <senses>darkvision 60 ft., passive Perception 12</senses>
+    <passive>9</passive>
+    <languages>Common, Gnomish</languages>
+    <cr>1/2</cr>
+    <environment>hill, forest, underdark</environment>
+    <trait>
+      <name>Gnome Cunning</name>
+      <text>The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic.</text>
+    </trait>
+    <action>
+      <name>Shortsword</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+    </action>
+    <action>
+      <name>Hand Crossbow</name>
+      <text>Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="414800b1-dad9-5bf6-acba-bfb3b9d310e2">
+    <name>Infant Orc</name>
+    <slug>infant-orc</slug>
+    <size>T</size>
+    <type>humanoid (orc)</type>
+    <alignment>chaotic evil</alignment>
+    <ac>11 (natural armor)</ac>
+    <hp>4 (1d4 + 2)</hp>
+    <speed>20 ft.</speed>
+    <str>12</str>
+    <dex>12</dex>
+    <con>14</con>
+    <int>5</int>
+    <wis>9</wis>
+    <cha>8</cha>
+    <role>enemy</role>
+    <skill>Intimidation +0</skill>
+    <senses>darkvision 30 ft., passive Perception 10</senses>
+    <passive>9</passive>
+    <languages>Common, Orc</languages>
+    <cr>1/8</cr>
+    <environment>arctic, forest, grassland, hill, mountain, swamp, underdark</environment>
+    <trait>
+      <name>Aggressive</name>
+      <text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+    </trait>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 + 1 piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="f073cd3e-5132-5451-be13-1cd26ac9bc06">
+    <name>Young Orc</name>
+    <slug>young-orc</slug>
+    <size>S</size>
+    <type>humanoid (orc)</type>
+    <alignment>chaotic evil</alignment>
+    <ac>13 (hide armor)</ac>
+    <hp>5 (1d6 + 2)</hp>
+    <speed>25 ft.</speed>
+    <str>14</str>
+    <dex>12</dex>
+    <con>15</con>
+    <int>6</int>
+    <wis>10</wis>
+    <cha>9</cha>
+    <role>enemy</role>
+    <skill>Intimidation +1</skill>
+    <senses>darkvision 60 ft., passive Perception 10</senses>
+    <passive>9</passive>
+    <languages>Common, Orc</languages>
+    <cr>1/2</cr>
+    <environment>arctic, forest, grassland, hill, mountain, swamp, underdark</environment>
+    <trait>
+      <name>Aggressive</name>
+      <text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+    </trait>
+    <action>
+      <name>Greataxe</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage.</text>
+    </action>
+    <action>
+      <name>Javelin</name>
+      <text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="1d9ee0ff-2972-5083-b731-d30cd21cd142">
+    <name>Middle Orc</name>
+    <slug>middle-orc</slug>
+    <size>M</size>
+    <type>humanoid (orc)</type>
+    <alignment>chaotic evil</alignment>
+    <ac>12 (hide armor)</ac>
+    <hp>13 (2d8 + 4)</hp>
+    <speed>30 ft.</speed>
+    <str>14</str>
+    <dex>12</dex>
+    <con>15</con>
+    <int>8</int>
+    <wis>12</wis>
+    <cha>11</cha>
+    <role>enemy</role>
+    <skill>Intimidation +2</skill>
+    <senses>darkvision 60 ft., passive Perception 11</senses>
+    <passive>9</passive>
+    <languages>Common, Orc</languages>
+    <cr>0</cr>
+    <environment>arctic, forest, grassland, hill, mountain, swamp, underdark</environment>
+    <trait>
+      <name>Aggressive</name>
+      <text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+    </trait>
+    <action>
+      <name>Greataxe</name>
+      <text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage.</text>
+    </action>
+    <action>
+      <name>Javelin</name>
+      <text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="8d1884cc-416f-5a4c-a216-486e1e4567a9">
+    <name>Old Orc</name>
+    <slug>old-orc</slug>
+    <size>M</size>
+    <type>humanoid (orc)</type>
+    <alignment>chaotic evil</alignment>
+    <ac>13 (hide armor)</ac>
+    <hp>13 (2d8 + 4)</hp>
+    <speed>25 ft.</speed>
+    <str>12</str>
+    <dex>12</dex>
+    <con>14</con>
+    <int>9</int>
+    <wis>13</wis>
+    <cha>12</cha>
+    <role>enemy</role>
+    <skill>Intimidation +3</skill>
+    <senses>darkvision 60 ft., passive Perception 11</senses>
+    <passive>9</passive>
+    <languages>Common, Orc</languages>
+    <cr>0</cr>
+    <environment>arctic, forest, grassland, hill, mountain, swamp, underdark</environment>
+    <trait>
+      <name>Aggressive</name>
+      <text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+    </trait>
+    <action>
+      <name>Greataxe</name>
+      <text>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d12 + 1) slashing damage.</text>
+    </action>
+    <action>
+      <name>Javelin</name>
+      <text>Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="9390020d-7689-5664-94ef-850b8c509595">
+    <name>Venerable Orc</name>
+    <slug>venerable-orc</slug>
+    <size>M</size>
+    <type>humanoid (orc)</type>
+    <alignment>chaotic evil</alignment>
+    <ac>13 (hide armor)</ac>
+    <hp>11 (2d8 + 2)</hp>
+    <speed>20 ft.</speed>
+    <str>10</str>
+    <dex>12</dex>
+    <con>13</con>
+    <int>10</int>
+    <wis>14</wis>
+    <cha>13</cha>
+    <role>enemy</role>
+    <skill>Intimidation +3</skill>
+    <senses>darkvision 30 ft., passive Perception 12</senses>
+    <passive>9</passive>
+    <languages>Common, Orc</languages>
+    <cr>0</cr>
+    <environment>arctic, forest, grassland, hill, mountain, swamp, underdark</environment>
+    <trait>
+      <name>Aggressive</name>
+      <text>As a bonus action, the orc can move up to its speed toward a hostile creature that it can see.</text>
+    </trait>
+    <action>
+      <name>Greataxe</name>
+      <text>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 6 (1d12) slashing damage.</text>
+    </action>
+    <action>
+      <name>Javelin</name>
+      <text>Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage.</text>
+    </action>
+  </monster>
+  <monster id="a096ab30-2a9f-5289-b316-884956287d9c">
+    <name>Infant Remorhaz</name>
+    <slug>infant-remorhaz</slug>
+    <size>M</size>
+    <type>monstrosity</type>
+    <alignment>unaligned</alignment>
+    <ac>11 (natural armor)</ac>
+    <hp>27 (5d8 + 5)</hp>
+    <speed>20 ft., burrow 10 ft.</speed>
+    <str>12</str>
+    <dex>13</dex>
+    <con>13</con>
+    <int>2</int>
+    <wis>10</wis>
+    <cha>3</cha>
+    <role>enemy</role>
+    <senses>darkvision 30 ft. tremorsense 30 ft., passive Perception 10</senses>
+    <passive>9</passive>
+    <languages>—</languages>
+    <cr>1/4</cr>
+    <environment>arctic</environment>
+    <trait>
+      <name>Heated Body</name>
+      <text>A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage.</text>
+    </trait>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) piercing damage plus 3 (1d6) fire damage.</text>
+    </action>
+  </monster>
+  <monster id="1a0f88ab-232c-5971-8c52-75398bd0df74">
+    <name>Ancient Remorhaz</name>
+    <slug>ancient-remorhaz</slug>
+    <size>G</size>
+    <type>monstrosity</type>
+    <alignment>unaligned</alignment>
+    <ac>20 (natural armor)</ac>
+    <hp>402 (23d20 + 161)</hp>
+    <speed>30 ft., burrow 20 ft.</speed>
+    <str>30</str>
+    <dex>13</dex>
+    <con>25</con>
+    <int>5</int>
+    <wis>10</wis>
+    <cha>6</cha>
+    <role>enemy</role>
+    <senses>darkvision 60 ft. tremorsense 60 ft., passive Perception 10</senses>
+    <passive>9</passive>
+    <languages>—</languages>
+    <cr>20</cr>
+    <environment>arctic</environment>
+    <trait>
+      <name>Heated Body</name>
+      <text>A creature that touches the remorhaz or hits it with a melee attack while within 5 feet of it takes 21 (4d6) fire damage.</text>
+    </trait>
+    <action>
+      <name>Bite</name>
+      <text>Melee Weapon Attack: +16 to hit, reach 5 ft., one target. Hit: 59 (9d10 + 10) piercing damage plus 21 (4d6) fire damage. If the target is a creature, it is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the remorhaz can't bite another target.</text>
+    </action>
+    <action>
+      <name>Swallow</name>
+      <text>The remorhaz makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 28 (8d6) acid damage at the start of each of the remorhaz's turns.</text>
+    </action>
+    <action>
+      <name/>
+      <text>If the remorhaz takes 40 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 15 feet of the remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone.</text>
+    </action>
+  </monster>
+</compendium>
