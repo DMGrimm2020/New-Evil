@@ -115,6 +115,185 @@ actions:
 This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
 ```Monster {.gray}
+id: 
+name: Infant Orc
+slug: infant-orc
+size: Tiny
+type: humanoid (orc)
+alignment: chaotic evil
+ac: 11 (natural armor)
+hp: 4 (1d4 + 2)
+speed: 20 ft.
+str: 12
+dex: 12
+con: 14
+int: 5
+wis: 9
+cha: 8
+role: enemy
+skills: Intimidation +0
+senses: darkvision 30 ft., passive Perception 10
+languages: Common, Orc
+challenge: 
+environments: arctic, forest, grassland, hill, mountain, swamp, underdark
+image: 
+token: 
+traits:
+  - name: Aggressive
+    description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+actions: 
+  - name: Bite
+    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 + 1 piercing damage."
+```
+This is infant orc entering the world. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+(print-page)
+
+```Monster {.gray}
+id: 
+name: Young Orc
+slug: young-orc
+size: Small
+type: humanoid (orc)
+alignment: chaotic evil
+ac: 13 (hide armor)
+hp: 5 (1d6 + 2)
+speed: 25 ft.
+str: 14
+dex: 12
+con: 15
+int: 6
+wis: 10
+cha: 9
+role: enemy
+skills: Intimidation +1
+senses: darkvision 60 ft., passive Perception 10
+languages: Common, Orc
+challenge: 
+environments: arctic, forest, grassland, hill, mountain, swamp, underdark
+image: 
+token: 
+traits:
+  - name: Aggressive
+    description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+actions:
+  - name: Greataxe
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage."  
+  - name: Javelin
+    description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+```
+This is young orc just starting out in life. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+```Monster {.gray}
+id: 
+name: Middle Orc
+slug: middle-orc
+size: Medium
+type: humanoid (orc)
+alignment: chaotic evil
+ac: 12 (hide armor)
+hp: 13 (2d8 + 4)
+speed: 30 ft.
+str: 14
+dex: 12
+con: 15
+int: 8
+wis: 12
+cha: 11
+role: enemy
+skills: Intimidation +2
+senses: darkvision 60 ft., passive Perception 11
+languages: Common, Orc
+challenge: 
+environments: arctic, forest, grassland, hill, mountain, swamp, underdark
+image: 
+token: 
+traits:
+  - name: Aggressive
+    description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+actions:
+  - name: Greataxe
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage."  
+  - name: Javelin
+    description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+```
+This is middle age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+(print-page)
+
+```Monster {.gray}
+id: 
+name: Old Orc
+slug: old-orc
+size: Medium
+type: humanoid (orc)
+alignment: chaotic evil
+ac: 13 (hide armor)
+hp: 13 (2d8 + 4)
+speed: 25 ft.
+str: 12
+dex: 12
+con: 14
+int: 9
+wis: 13
+cha: 12
+role: enemy
+skills: Intimidation +3
+senses: darkvision 60 ft., passive Perception 11
+languages: Common, Orc
+challenge: 
+environments: arctic, forest, grassland, hill, mountain, swamp, underdark
+image: 
+token: 
+traits:
+  - name: Aggressive
+    description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+actions:
+  - name: Greataxe
+    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d12 + 1) slashing damage."  
+  - name: Javelin
+    description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
+```
+This is old age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+```Monster {.gray}
+id: 
+name: Venerable Orc
+slug: venerable-orc
+size: Medium
+type: humanoid (orc)
+alignment: chaotic evil
+ac: 13 (hide armor)
+hp: 11 (2d8 + 2)
+speed: 20 ft.
+str: 10
+dex: 12
+con: 13
+int: 10
+wis: 14
+cha: 13
+role: enemy
+skills: Intimidation +3
+senses: darkvision 30 ft., passive Perception 12
+languages: Common, Orc
+challenge: 
+environments: arctic, forest, grassland, hill, mountain, swamp, underdark
+image: 
+token: 
+traits:
+  - name: Aggressive
+    description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+actions:
+  - name: Greataxe
+    description: "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 6 (1d12) slashing damage."  
+  - name: Javelin
+    description: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage."
+```
+This is venerable age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+(print-page)
+
+```Monster {.gray}
 id: b2601dbd-5406-5dd2-bea5-7bf136988683
 name: Infant Remorhaz
 slug: infant-remorhaz
