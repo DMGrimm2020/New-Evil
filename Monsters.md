@@ -134,7 +134,7 @@ role: enemy
 skills: Intimidation +0
 senses: darkvision 30 ft., passive Perception 10
 languages: Common, Orc
-challenge: 
+challenge: 1/8
 environments: arctic, forest, grassland, hill, mountain, swamp, underdark
 image: 
 token: 
@@ -169,7 +169,7 @@ role: enemy
 skills: Intimidation +1
 senses: darkvision 60 ft., passive Perception 10
 languages: Common, Orc
-challenge: 
+challenge: 1/2
 environments: arctic, forest, grassland, hill, mountain, swamp, underdark
 image: 
 token: 
