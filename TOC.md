@@ -18,24 +18,28 @@ order: 1
 
 [Young Orc ... 6](/Monsters.md)
 
-[Middle Orc ... 7](/Monsters.md)
+[Middle Orc ... 6](/Monsters.md)
 
 [Old Orc ... 7](/Monsters.md)
 
-[Venerable Orc ... 5](/Monsters.md)
+[Venerable Orc ... 7](/Monsters.md)
 
 [Infant Remorhaz ... 8](/Monsters.md)
 
 [Ancient Remorhaz ... 9](/Monsters.md)
 
-### [Currency Table Chart .. 7](/CurrencyTableChart.md)
-#### []()
-[Standard Echange Rate Currency ... 7](/CurrencyTableChart.md)
+### [Items ... 10](/Items.md)
+[Ring of Stretch ... 10](/Items.md)
 
-[Main Race Currency Echange Rate For Goods ... 7](/CurrencyTableChart.md)
+[Wonder of Condense ... 10](/Items.md)
 
-[Bank Currency Echange Rate ... 7](/CurrencyTableChart.md)
+### [Currency Table Chart ... 11](/CurrencyTableChart.md)
+[Standard Echange Rate Currency ... 11](/CurrencyTableChart.md)
 
-[Currency Treasure Echange Rate ... 7](/CurrencyTableChart.md)
+[Main Race Currency Echange Rate For Goods ... 11](/CurrencyTableChart.md)
 
-[Black Market Currency Treasure Echange Rate ... 7](/CurrencyTableChart.md)
+[Bank Currency Echange Rate ... 11](/CurrencyTableChart.md)
+
+[Currency Treasure Echange Rate ... 11](/CurrencyTableChart.md)
+
+[Black Market Currency Treasure Echange Rate ... 11](/CurrencyTableChart.md)
