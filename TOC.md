@@ -6,40 +6,53 @@ order: 1
 ---
 
 # Table of Contents
-### [New Evil .. 3](NewEvil.md)
-### [Monsters and NPCs .. 4](Monsters.md)
-[Dwarven Citizen ... 4](/Monsters.md)
+### [New Evil .. 3](/NewEvil.md)
+### [Side Quest .. 5](/SideQuest.md)
+#### [1. Orc Trouble .. 5](/SideQuest.md)
+#### [2. The Capture of Flying Snakes .. 5](/SideQuest.md)
+### [Monsters and NPCs .. 6](Monsters.md)
+[Dwarven Citizen ... 6](/Monsters.md)
 
-[Elven Citizen ... 4](/Monsters.md)
+[Elven Citizen ... 6](/Monsters.md)
 
-[Gnomish Citizen ... 5](/Monsters.md)
+[Gnomish Citizen ... 7](/Monsters.md)
 
-[Infant Orc ... 5](/Monsters.md)
+[Infant Orc ... 7](/Monsters.md)
 
-[Young Orc ... 6](/Monsters.md)
+[Young Orc ... 8](/Monsters.md)
 
-[Middle Orc ... 6](/Monsters.md)
+[Middle Orc ... 8](/Monsters.md)
 
-[Old Orc ... 7](/Monsters.md)
+[Old Orc ... 9](/Monsters.md)
 
-[Venerable Orc ... 7](/Monsters.md)
+[Venerable Orc ... 9](/Monsters.md)
 
-[Infant Remorhaz ... 8](/Monsters.md)
+[Infant Remorhaz ... 10](/Monsters.md)
 
-[Ancient Remorhaz ... 9](/Monsters.md)
+[Ancient Remorhaz ... 10](/Monsters.md)
 
-### [Items ... 10](/Items.md)
-[Ring of Stretch ... 10](/Items.md)
+**Skeleton ... 11**
 
-[Wonder of Condense ... 10](/Items.md)
+[Dwarven Skeleton Citizen ... 11](/Monsters.md)
 
-### [Currency Table Chart ... 11](/CurrencyTableChart.md)
-[Standard Echange Rate Currency ... 11](/CurrencyTableChart.md)
+[Elven Skeleton Citizen ... 11](/Monsters.md)
 
-[Main Race Currency Echange Rate For Goods ... 11](/CurrencyTableChart.md)
+[Gnomish Skeleton Citizen ... 12](/Monsters.md)
 
-[Bank Currency Echange Rate ... 11](/CurrencyTableChart.md)
+[Orc Skeleton ... 12](/Monsters.md)
 
-[Currency Treasure Echange Rate ... 11](/CurrencyTableChart.md)
+### [Items ... 13](/Items.md)
+[Ring of Stretch ... 13](/Items.md)
 
-[Black Market Currency Treasure Echange Rate ... 11](/CurrencyTableChart.md)
+[Wonder of Condense ... 13](/Items.md)
+
+### [Currency Table Chart ... 14](/CurrencyTableChart.md)
+[Standard Echange Rate Currency ... 14](/CurrencyTableChart.md)
+
+[Main Race Currency Echange Rate For Goods ... 14](/CurrencyTableChart.md)
+
+[Bank Currency Echange Rate ... 14](/CurrencyTableChart.md)
+
+[Currency Treasure Echange Rate ... 14](/CurrencyTableChart.md)
+
+[Black Market Currency Treasure Echange Rate ... 14](/CurrencyTableChart.md)
