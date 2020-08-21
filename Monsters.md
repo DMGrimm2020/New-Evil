@@ -2,10 +2,13 @@
 name: Monsters
 slug: monsters
 pdf-page-style: multi-column
-order: 3
+order: 4
 ---
 
 # Monsters
+
+#### Dwarven Citizen
+This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
 
 ```Monster {.gray}
 id: c2e2b5a0-3c38-5057-94f9-a74fb0494fb4
@@ -40,7 +43,11 @@ actions:
   - name: Handaxe
     description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
 ```
-This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
+
+(print-column)
+
+#### Elven Citizen
+This is your everyday elven citizen. Environments: Forest, Underdark
 
 ```Monster {.gray}
 id: 1ede79f5-6690-5071-8ab1-530f41b375e9
@@ -71,13 +78,15 @@ traits:
     description: "The elf has advantage on saving throws against being charmed, and magic can't put the elf to sleep."
 actions:
   - name: Shortsword
-    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 55 (1d6 + 2) piercing damage."  
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."  
   - name: Longbow
     description: "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
 ```
-This is your everyday elven citizen. Environments: Forest, Underdark
 
 (print-page)
+
+#### Gnomish Citizen
+This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
 ```Monster {.gray}
 id: 1d4c3847-a0bd-5e11-a298-19715864f880
@@ -112,7 +121,6 @@ actions:
   - name: Hand Crossbow
     description: "Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
 ```
-This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
 ### Aging NPC's
 | Age | Str | Dex | Con | Int | Wis | Cha |
@@ -124,9 +132,24 @@ This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 | Old       | -2 | +0 | +1 | +1 | +1 | +1 |
 | Venerable | -2 | +0 | +1 | +1 | +1 | +1 |
 
+(print-column)
+
 For those that want to have differnt race's age's. Go two size's down off the original creature's stats.
 
 *Examples are Infant Orc, Young Orc, Adult Orc is found on MM p.246, Middle Orc, Old Orc, & Venerable Orc.*
+
+#### Orc Life Stages
+Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+**Infant Orc.** This is infant orc entering the world.
+
+**Young Orc.** This is young orc just starting out in life.
+
+**Middle Orc.** This is middle age orc.
+
+**Old Orc.** This is old age orc.
+
+**Venerable Orc.** This is venerable age orc.
 
 ```Monster {.gray}
 id: 414800b1-dad9-5bf6-acba-bfb3b9d310e2
@@ -159,7 +182,6 @@ actions:
   - name: Bite
     description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 + 1 piercing damage."
 ```
-This is infant orc entering the world. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
 (print-page)
 
@@ -196,7 +218,8 @@ actions:
   - name: Javelin
     description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
 ```
-This is young orc just starting out in life. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+(print-column)
 
 ```Monster {.gray}
 id: 1d9ee0ff-2972-5083-b731-d30cd21cd142
@@ -231,7 +254,6 @@ actions:
   - name: Javelin
     description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
 ```
-This is middle age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
 (print-page)
 
@@ -268,7 +290,8 @@ actions:
   - name: Javelin
     description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
 ```
-This is old age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+(print-column)
 
 ```Monster {.gray}
 id: 9390020d-7689-5664-94ef-850b8c509595
@@ -303,9 +326,13 @@ actions:
   - name: Javelin
     description: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage."
 ```
-This is venerable age orc. Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
 (print-page)
+
+#### Remorhaz
+The heat secretion of a remorhaz, thrym, is valuable as a component for heat-related magical items and can be sold to alchemists for 5-10 gold pieces per flask. The remorhaz will contain 10 flasks worth of thrym per Hit Die. Environments: Arctic
+
+**Ancient Remorhaz.** Roll (1d100) with 25 percent chance of a mate and with (1d2) eggs. The eggs value are at 500 gp.
 
 ```Monster {.gray}
 id: a096ab30-2a9f-5289-b316-884956287d9c
@@ -338,9 +365,8 @@ actions:
   - name: Bite
     description: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) piercing damage plus 3 (1d6) fire damage."  
 ```
-The heat secretion of a remorhaz, thrym, is valuable as a component for heat-related magical items and can be sold to alchemists for 5-10 gold pieces per flask. The remorhaz will contain 10 flasks worth of thrym per Hit Die. Environments: Arctic
 
-(print-page)
+(print-column)
 
 ```Monster {.gray}
 id: 1a0f88ab-232c-5971-8c52-75398bd0df74
@@ -376,4 +402,156 @@ actions:
     description: "The remorhaz makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 28 (8d6) acid damage at the start of each of the remorhaz's turns."
   - description: "If the remorhaz takes 40 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 15 feet of the remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."  
 ```
-The heat secretion of a remorhaz, thrym, is valuable as a component for heat-related magical items and can be sold to alchemists for 5-10 gold pieces per flask. The remorhaz will contain 10 flasks worth of thrym per Hit Die. Roll (1d100) with 25 percent chance of a mate and with (1d2) eggs. The eggs value are at 500 gp. Environments: Arctic
+
+(print-page)
+
+#### Skeleton
+Something or someone had it where the resting place was disturbed.
+
+**Dwarven Skeleton.** Environments: Hill, Mountain, Underdark
+
+**Elven Skeleton.** Environments: Forest, Underdark
+
+**Gnomish Skeleton.** Environments: Hill, Forest, Underdark
+
+**Orc Skeleton.** Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
+
+```Monster {.gray}
+id: 
+name: Dwarven Skeleton Citizen
+slug: dwarven-skeleton-citizen
+size: Medium
+type: undead (dwarf)
+alignment: lawful evil
+ac: 17 (scale mail, shield)
+hp: 26 (4d8 + 4)
+speed: 25 ft.
+str: 13
+dex: 13
+con: 14
+int: 7
+wis: 10
+cha: 5
+role: enemy
+vulnerabilities: bludgeoning
+damageImmunities: cold, poison
+conditionImmunities: exhaustion, poisoned
+senses: darkvision 60 ft., passive Perception 10
+languages: understands Common, Dwarvish but can't speak
+challenge: 3
+environments: hill, mountain, underdark
+image: 
+token: 
+traits:
+actions:
+  - name: Battleaxe
+    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands."  
+  - name: Handaxe
+    description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
+```
+
+(print-column)
+
+```Monster {.gray}
+id: 
+name: Elven Skeleton Citizen
+slug: elven-skeleton-citizen
+size: Medium
+type: undead (elf)
+alignment: lawful evil
+ac: 15 (studded leather armor)
+hp: 13 (3d8)
+speed: 30 ft.
+str: 10
+dex: 16
+con: 10
+int: 7
+wis: 11
+cha: 7
+role: enemy
+vulnerabilities: bludgeoning
+damageImmunities: cold, poison
+conditionImmunities: exhaustion, poisoned
+senses: darkvision 60 ft., passive Perception 10
+languages: understands Common, Elvish but can't speak
+challenge: 2
+environments: forest, underdark
+image: 
+token: 
+traits:
+actions:
+  - name: Shortsword
+    description: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."  
+  - name: Longbow
+    description: "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+```
+
+(print-page)
+
+```Monster {.gray}
+id: 
+name: Gnomish Skeleton Citizen
+slug: gnomish-skeleton-citizen
+size: Small
+type: undead (gnome)
+alignment: lawful evil
+ac: 17 (chain shirt, shield)
+hp: 16 (3d6 + 6)
+speed: 25 ft.
+str: 15
+dex: 15
+con: 14
+int: 8
+wis: 10
+cha: 5
+role: enemy
+vulnerabilities: bludgeoning
+damageImmunities: cold, poison
+conditionImmunities: exhaustion, poisoned
+senses: darkvision 60 ft., passive Perception 10
+languages: understands Common, Gnomish but can't speak
+challenge: 1
+environments: hill, forest, underdark
+image: 
+token: 
+traits:
+actions:
+  - name: Shortsword
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."  
+  - name: Hand Crossbow
+    description: "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+```
+
+```Monster {.gray}
+id: 
+name: Orc Skeleton
+slug: orc-skeleton
+size: Medium
+type: undead (orc)
+alignment: lawful evil
+ac: 14 (hide armor)
+hp: 15 (2d8 + 6)
+speed: 30 ft.
+str: 16
+dex: 14
+con: 16
+int: 3
+wis: 11
+cha: 6
+role: enemy
+vulnerabilities: bludgeoning
+damageImmunities: cold, poison
+conditionImmunities: exhaustion, poisoned
+senses: darkvision 60 ft., passive Perception 10
+languages: understands Common, Orc but can't speak
+challenge: 1
+environments: arctic, forest, grassland, hill, mountain, swamp, underdark
+image: 
+token: 
+traits:
+actions:
+  - name: Greataxe
+    description: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage."  
+  - name: Javelin
+    description: "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+```
