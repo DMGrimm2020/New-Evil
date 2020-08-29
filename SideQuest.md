@@ -29,7 +29,7 @@ Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a simple
 
 (print-column)
  
- >When you go outside of Nealion. Head North West for 3 days threw the wood, 2 day's back. *(Do what time of day it's.)* You will see a grove of trees making a perfect circle. In the center is nothing but green grass flowing in the wind. I ask that you don't go near the center and respect my wish. Once you are there. You will see the flying snake's about.{.read}
+ >When you go outside of Nealion. Head North West for 3 days threw the wood, 2 day's back. *(Do what time of day it's.)* You will see a grove of trees making a perfect circle. In the center is nothing but green grass blowing in the wind. I ask that you don't go near the center and respect my wish. Once you are there. You will see the flying snake's about.{.read}
 
  If a player asks the elven scout how does the scout know. Replay with,
  
@@ -38,10 +38,10 @@ Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a simple
  A member of the party need's to roll and succeed on a DC 15 Wisdom (Survival) check. Once a day. If the party member fails the check. The party lands up wasting the day and gets lost. It will add a new day to their travel's.
  **Optional:** A different party member can roll and succeed on a DC 10 Wisdom (Survival) check. On a successful check, roll 1d6 + their Wisdom modifier to determine how much food (in pound's), then repeat the same roll for water (in gallon's).
  
- As the party makes it to the grove of trees. They can see something flying overhead every so often when the light passe's through the tree’s. Succeed on a DC 14 Wisdom (Perception Perception). 16 [Flying Snake](/monster/flying-snake). *(Beyond four player's, add 4 Flying Snake's.)*
+ As the party makes it to the edge of a clearing in the trees. The party can see across the opening of the trees.Lays twelve rocks making a perfect circle and foot steps leading away from a near path. All of a sudden something flies overhead every so often when the light passes through the tree’s. Succeed on a DC 14 Wisdom (Perception Perception). 16 [Flying Snake](/monster/flying-snake). *(Beyond four player's, add 4 Flying Snakes.)*
 
-The party or player can (A) climb up a tree to gather as many Flying Snake’s passing over head or (B) small rodent from the elven scout for bait.
+The party or player can (A) climb up a tree to gather as many Flying Snakes passing overhead or (B) small rodents from the elven scout for bait.
 
-(A) After the player captures a Flying Snake from anywhere. Roll a d10 to know the number of round’s the Flying Snake’s will stick around.
+(A) After a player captures a Flying Snake from anywhere. Roll a d10 to know the number of round’s the Flying Snake’s will stick around.
 
 (B) If the party is using a small rodent. Roll 2d10 to know the number of round’s the Flying Snakes will stick around.
