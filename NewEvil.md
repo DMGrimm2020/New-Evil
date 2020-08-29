@@ -45,7 +45,7 @@ If the party doesn’t ask around, then stick to telling them on the quest board
 >
 >### Orc Raider's {.text-center}
 >
->See the local elven noble for further details. {.text-center .paper}
+>See Aust Rothenel the elven noble for further details. {.text-center .paper}
 
 ># Reward {.text-center}
 >
@@ -61,22 +61,22 @@ If the party doesn’t ask around, then stick to telling them on the quest board
 
 #### Main Quest: Two Quest's In One
 
-When the party decides to see the local noble. The noble will tell them
+When the party decides to see Aust Rothenel the elven noble [p.14](/NPC.md). Aust will tell them
 
 >Greetings, have you all traveled this way to help with the Orc troubles from time to time. It's making hunting and trading harder and harder for my people.{.read}
 
 (print-page)
 
-*The party needed to take something that the orcs would carry. If a player didn't take an [Orc Trophy](/images/OrcTable.jpg). The party can't go back and gather something. Have the noble say*
+*The party needed to take something that the orcs would carry. If a player didn't take an [Orc Trophy](/images/OrcTable.jpg). The party can't go back and gather something. Have Aust say*
 
 >How much time has passed. Wild animal's dragged or something claimed the sight. I'm still pleased, please sit, if you took care of them with such ease. Maybe just maybe you all can help with something.{.read}
 
 *Skip the "How much time has passed." if the party managed to take an [Orc Trophy](/images/OrcTable.jpg).*
 
- >I'm glad to hear my friends. Please sit, (The noble looks at one of his members and tells them.) Go get 19 SP for are fellow friends. (As the noble turns back to the party.) If you took care of those orcs with ease. Maybe just maybe you all can help with something.{.read}
+ >I'm glad to hear my friends. Please sit, (The Aust looks at one of his members and tells them.) Go get 19 SP for are fellow friends. (As Aust turns back to the party.) If you took care of those orcs with ease. Maybe just maybe you all can help with something.{.read}
+
+*Double the reward or what you see fit's if a player brings and offers Aust elven ears or flayed elven hide. That way they can honor their dead. Now if a player decides to keep one of those two as a keepsake. The adventurer party is not welcomed back.*
 
  *Wait for the party to discuss it between themselves.*
 
- >One of my men has seen a group of two legged lizard's gathering in one spot. I keep getting informed every couple days  that their numbers keep growing. We have heard stories of lizard people capturing local's and trader's alike. We just don't know for sure.{.read}
-
-*Double the reward or what you see fit's if a player brings and offers the noble elven ears or flayed elven hide. That way they can honor their dead. Now if a player decides to keep one of those two as a keepsake. The adventurer party is not welcomed back.*
+ >One of my men has seen a group of two legged lizard's gathering in one spot. I keep getting informed every couple days  that their numbers keep growing. We have heard stories of lizard people capturing local's and trader's alike. I just don't know for sure.{.read}
