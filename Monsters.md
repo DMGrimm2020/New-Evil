@@ -2,7 +2,7 @@
 name: Monsters
 slug: monsters
 pdf-page-style: multi-column
-order: 4
+order: 5
 ---
 
 # Monsters
@@ -11,14 +11,14 @@ order: 4
 This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
 
 ```Monster {.gray}
-id: c2e2b5a0-3c38-5057-94f9-a74fb0494fb4
+id: 
 name: Dwarven Citizen
 slug: dwarven-citizen
 size: Medium
 type: humanoid (dwarf)
 alignment: lawful good
 ac: 16 (scale mail, shield)
-hp: 26 (4d8 + 4)
+hp: 26 (4d8 + 8)
 speed: 25 ft.
 str: 13
 dex: 11
@@ -50,7 +50,7 @@ actions:
 This is your everyday elven citizen. Environments: Forest, Underdark
 
 ```Monster {.gray}
-id: 1ede79f5-6690-5071-8ab1-530f41b375e9
+id: 
 name: Elven Citizen
 slug: elven-citizen
 size: Medium
@@ -89,7 +89,7 @@ actions:
 This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
 
 ```Monster {.gray}
-id: 1d4c3847-a0bd-5e11-a298-19715864f880
+id: 
 name: Gnomish Citizen
 slug: gnomish-citizen
 size: Small
@@ -152,7 +152,7 @@ Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 **Venerable Orc.** This is venerable age orc.
 
 ```Monster {.gray}
-id: 414800b1-dad9-5bf6-acba-bfb3b9d310e2
+id: 
 name: Infant Orc
 slug: infant-orc
 size: Tiny
@@ -186,7 +186,7 @@ actions:
 (print-page)
 
 ```Monster {.gray}
-id: f073cd3e-5132-5451-be13-1cd26ac9bc06
+id: 
 name: Young Orc
 slug: young-orc
 size: Small
@@ -222,7 +222,7 @@ actions:
 (print-column)
 
 ```Monster {.gray}
-id: 1d9ee0ff-2972-5083-b731-d30cd21cd142
+id: 
 name: Middle Orc
 slug: middle-orc
 size: Medium
@@ -258,7 +258,7 @@ actions:
 (print-page)
 
 ```Monster {.gray}
-id: 8d1884cc-416f-5a4c-a216-486e1e4567a9
+id: 
 name: Old Orc
 slug: old-orc
 size: Medium
@@ -294,7 +294,7 @@ actions:
 (print-column)
 
 ```Monster {.gray}
-id: 9390020d-7689-5664-94ef-850b8c509595
+id: 
 name: Venerable Orc
 slug: venerable-orc
 size: Medium
@@ -335,7 +335,7 @@ The heat secretion of a remorhaz, thrym, is valuable as a component for heat-rel
 **Ancient Remorhaz.** Roll (1d100) with 25 percent chance of a mate and with (1d2) eggs. The eggs value are at 500 gp.
 
 ```Monster {.gray}
-id: a096ab30-2a9f-5289-b316-884956287d9c
+id: 
 name: Infant Remorhaz
 slug: infant-remorhaz
 size: Medium
@@ -369,7 +369,7 @@ actions:
 (print-column)
 
 ```Monster {.gray}
-id: 1a0f88ab-232c-5971-8c52-75398bd0df74
+id: 
 name: Ancient Remorhaz
 slug: ancient-remorhaz
 size: Gargantuan
@@ -424,7 +424,7 @@ size: Medium
 type: undead (dwarf)
 alignment: lawful evil
 ac: 17 (scale mail, shield)
-hp: 26 (4d8 + 4)
+hp: 26 (4d8 + 8)
 speed: 25 ft.
 str: 13
 dex: 13
@@ -554,4 +554,82 @@ actions:
     description: "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage."  
   - name: Javelin
     description: "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+```
+
+(print-page)
+
+#### Hippogriff
+The hippogriff eggs are worth 1,000 gp. As the hipporgriff gets to infant stage in life can be worth 2,000 gp. When raising a infant hipporgriff. It will need to be taught how to fly when it gets to the younger stage in life. Young hipporgriff can be worth 3,000 gp. When the hippogriff get to adult age. The hippogriff can be more trouble then it is worth.
+Environments: Grassland, Hill, Mountain
+
+```Monster {.gray}
+id: 
+name: Infant Hippogriff
+slug: infant-hippogriff
+size: Small
+type: monstrosity
+alignment: unaligned
+ac: 11 (natural armor)
+hp: 3 (1d6)
+speed: 20 ft.
+str: 13
+dex: 13
+con: 11
+int: 1
+wis: 12
+cha: 6
+role: enemy
+skills: perception +2
+senses: passive Perception 12
+languages: —
+challenge: 1/8
+environments: grassland, hill, mountain
+image: 
+token: 
+traits:
+  - name: Keen Sight
+    description: "The hippogriff has advantage on Wisdom (Perception) checks that rely on sight."
+actions:
+  - name: Beak
+    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 1) piercing damage."  
+  - name: Claws
+    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 1) slashing damage."
+```
+
+(print-column)
+
+```Monster {.gray}
+id: 
+name: Young Hippogriff
+slug: young-hippogriff
+size: Medium
+type: monstrosity
+alignment: unaligned
+ac: 11 (natural armor)
+hp: 11 (2d8 + 2)
+speed: 30 ft., fly 40 ft.
+str: 15
+dex: 13
+con: 12
+int: 2
+wis: 12
+cha: 7
+role: enemy
+skills: perception +2
+senses: passive Perception 12
+languages: —
+challenge: 1/2
+environments: grassland, hill, mountain
+image: 
+token: 
+traits:
+  - name: Keen Sight
+    description: "The hippogriff has advantage on Wisdom (Perception) checks that rely on sight."
+actions:
+  - name: Multiattack
+    description: "The hippogriff makes two attacks: one with its beak and one with its claws."
+  - name: Beak
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."  
+  - name: Claws
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
 ```
