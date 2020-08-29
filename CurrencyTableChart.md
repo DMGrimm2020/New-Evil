@@ -2,7 +2,7 @@
 name: Currency Table Chart
 slug: currency-table-chart
 pdf-page-style: multi-column
-order: 6
+order: 7
 ---
 
 ### Standard Echange Rate Currency
