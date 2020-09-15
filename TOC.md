@@ -3,70 +3,75 @@ name: Table of Contents
 slug: table-of-contents
 pdf-page-style: multi-column
 order: 1
+include-in: all
 ---
 
 # Table of Contents
-### [New Evil ... 3](/NewEvil.md)
-### [Side Quest ... 5](/SideQuest.md)
 
-[1. Orc Troublies ... 5](/SideQuest.md)
 
-[2. Capture or Kill Pseudodragon ... 5](/SideQuest.md)
+### [New Evil ... 3](new-evil)
+### [Side Quest ... 5](side-quest)
 
-### [Magic Items ... 6](/Items.md)
+[1. Orc Troublies ... 5](side-quest)
 
-[Cloak of Elvenkind ... 6](/Items.md)
+[2. Capture or Kill Pseudodragon ... 5](side-quest)
 
-[Ring of Stretch ... 6](/Items.md)
+### [Magic Items ... 6](items)
 
-[Starburst Turquoise Crystal ... 6](/Items.md)
+[Cloak of Elvenkind ... 6](items)
 
-[Wonder of Condense ... 6](/Items.md)
+[Ring of Stretch ... 6](items)
 
-### [Monsters ... 7](/Monsters.md)
+[Starburst Turquoise Crystal ... 6](items)
 
-[Dwarven Citizen ... 7](/Monsters.md)
+[Wonder of Condense ... 6](items)
 
-[Elven Citizen ... 7](/Monsters.md)
+### [Monsters ... 7](monsters)
 
-[Gnomish Citizen ... 8](/Monsters.md)
+[Dwarven Citizen ... 7](monsters)
 
-[Infant Orc ... 9](/Monsters.md)
+[Elven Citizen ... 7](monsters)
 
-[Young Orc ... 9](/Monsters.md)
+[Gnomish Citizen ... 8](monsters)
 
-[Middle Orc ... 10](/Monsters.md)
+[Infant Orc ... 9](monsters)
 
-[Old Orc ... 10](/Monsters.md)
+[Young Orc ... 9](monsters)
 
-[Venerable Orc ... 11](/Monsters.md)
+[Middle Orc ... 10](monsters)
 
-[Infant Remorhaz ... 11](/Monsters.md)
+[Old Orc ... 10](monsters)
 
-[Ancient Remorhaz ... 12](/Monsters.md)
+[Venerable Orc ... 11](monsters)
+
+[Infant Remorhaz ... 11](monsters)
+
+[Ancient Remorhaz ... 12](monsters)
 
 **Skeleton ... 12**
 
-[Dwarven Skeleton Citizen ... 12](/Monsters.md)
+[Dwarven Skeleton Citizen ... 12](monsters)
 
-[Elven Skeleton Citizen ... 13](/Monsters.md)
+[Elven Skeleton Citizen ... 13](monsters)
 
-[Gnomish Skeleton Citizen ... 13](/Monsters.md)
+[Gnomish Skeleton Citizen ... 13](monsters)
 
-[Orc Skeleton ... 14](/Monsters.md)
+[Orc Skeleton ... 14](monsters)
 
-[Infant Hippogriff ... 14](/Monsters.md)
+[Infant Hippogriff ... 14](monsters)
 
-[Young Hippogriff ... 15](/Monsters.md)
+[Young Hippogriff ... 15](monsters)
 
-### [NPCs ... 16](/NPC.md)
-### [Currency Table Chart ... 17](/CurrencyTableChart.md)
-[Standard Echange Rate Currency ... 17](/CurrencyTableChart.md)
+### [NPCs ... 16](npc)
+### [Currency Table Chart ... 17](currency-table-chart)
+[Standard Echange Rate Currency ... 17](currency-table-chart)
 
-[Main Race Currency Echange Rate For Goods ... 17](/CurrencyTableChart.md)
+[Main Race Currency Echange Rate For Goods ... 17](currency-table-chart)
 
-[Bank Currency Echange Rate ... 17](/CurrencyTableChart.md)
+[Bank Currency Echange Rate ... 17](currency-table-chart)
 
-[Currency Treasure Echange Rate ... 17](/CurrencyTableChart.md)
+[Currency Treasure Echange Rate ... 17](currency-table-chart)
 
-[Black Market Currency Treasure Echange Rate ... 17](/CurrencyTableChart.md)
+[Black Market Currency Treasure Echange Rate ... 17](currency-table-chart)
+
+{.toc}
