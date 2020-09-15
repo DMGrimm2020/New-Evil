@@ -13,6 +13,6 @@ order: 0
 
 **Story Development:** Tyler Grimm
 
-**Editing:** 
+**Editier:** Caligirl, VindicationWar are from Discord.
 
 **Graphic Designer:** 
