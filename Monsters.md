@@ -3,6 +3,7 @@ name: Monsters
 slug: monsters
 pdf-page-style: multi-column
 order: 5
+include-in: all
 ---
 
 # Monsters
