@@ -3,6 +3,7 @@ name: New Evil
 slug: new-evil
 pdf-page-style: multi-column
 order: 2
+include-in: all
 ---
 
 # New Evil
@@ -17,7 +18,7 @@ A dragon is trying to figure out a way to live forever.
 The main quest is to determine why the Lizardfolk are gathering.
 
 ## Opening
-The adventurers will be heading into a village called Nealion. Along the road to Nealion, their caravan get's attacked by a group of Orc’s. [Side Quest 1. Orc Troublies p5](/SideQuest.md)
+The adventurers will be heading into a village called Nealion. Along the road to Nealion, their caravan get's attacked by a group of Orc’s. [Side Quest 1. Orc Troublies p5](side-quest)
 
 In Nealion the party will be given 3 quest's.
 
@@ -31,9 +32,9 @@ If the party doesn’t ask around, then direct them to the quest board inside th
 
 >The party can see two slips of paper hanging on a very old spruce wood quest board for anyone interested in some side work.{.read}
 
-* [Side Quest 1. Orc Troublies p5](/SideQuest.md)
+* [Side Quest 1. Orc Troublies p5](side-quest)
 
-* [Side Quest 2. Capture or Kill Pseudodragon p5](/SideQuest.md)
+* [Side Quest 2. Capture or Kill Pseudodragon p5](side-quest)
 
 ># Reward {.text-center}
 >
@@ -53,7 +54,7 @@ If the party doesn’t ask around, then direct them to the quest board inside th
 >
 >## In Elven GP {.text-center}
 >
->## Dead or Alive{.text-center}
+>## Dead or Alive {.text-center}
 >
 >### Pseudodragon {.text-center}
 >
@@ -61,17 +62,17 @@ If the party doesn’t ask around, then direct them to the quest board inside th
 
 #### Main Quest: Two Quest's In One
 
-When the party decides to see Aust Rothenel the elven noble [p16](/NPC.md). Aust will tell them
+When the party decides to see Aust Rothenel the elven noble [p16](npc). Aust will tell them
 
 (print-page)
 
 >Greetings, have you all traveled this way to help with the Orc troubles, we would be pleased if you could get rid of them quickly. Their presence is making hunting and trading very difficult for my people.{.read}
 
-*The party needed to take something that the orcs would carry. If a player didn't take an [Orc Trophy](/images/OrcTable.jpg). The party can't go back and gather something. Have Aust say*
+*The party needed to take something that the orcs would carry. If a player didn't take an Orc Trophy. The party can't go back and gather something. Have Aust say*
 
 >How much time has passed. Wild animal's dragged or something claimed the sight. Worry not adventurers as long as they no longer live I am pleased, have a seat. (Aust says gesturing to some stools in front of a fire.) Since you took care of them with ease, maybe just maybe you all can help me with another task...{.read}
 
-*Skip the "How much time has passed." if the party managed to take an [Orc Trophy](/images/OrcTable.jpg).*
+*Skip the "How much time has passed." if the party managed to take an Orc Trophy.*
 
  >I’m glad to hear of your good news my friends. Please sit, (Aust looks at one of his members and tells them.) Go get 19 SP for your fellow friends. (As Aust turns back to the party.) If you took care of those orcs with ease. Maybe just maybe you all can help with something else.{.read}
 
