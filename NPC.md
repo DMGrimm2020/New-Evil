@@ -3,6 +3,7 @@ name: NPC
 slug: npc
 pdf-page-style: multi-column
 order: 6
+include-in: all
 ---
 
 # NPC
