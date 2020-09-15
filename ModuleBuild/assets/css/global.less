@@ -506,10 +506,12 @@ a[href*='/spell/'] {
 figure {
   margin: 0;
   padding: 0;
+  page-break-inside: avoid;
 }
 
 figcaption {
   text-align: center;
+  font-size: 9px;
 }
 
 img {
@@ -562,7 +564,7 @@ table {
     float: right;
   }
 
-  &.headerTitle {
+  &.header-title {
     thead {
       font-weight: bold;
       font-family: @heading-font-family;
@@ -1000,7 +1002,6 @@ table.sidebar {
     }
 
     .statblock-subtitle,
-    .statblock-trait-name,
     .statblock-topstat-name,
     .statblock-property-name,
     .statblock-property-name,
@@ -1083,6 +1084,25 @@ table.sidebar {
 /******** Print-Specific Styles ********/
 
 @media print {
+  @page {
+    size: auto;
+    margin: 0;
+  }
+
+  div.print-two-column {
+    &:not(.statblock) {
+      width: 7.5in;
+      position: relative;
+      column-count: 2;
+      column-gap: 0.25in;
+      column-fill: auto;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      -webkit-column-gap: 0.25in;
+      -moz-column-gap: 0.25in;
+    }
+  }
+
   .print-cover-page {
     position: relative;
     height: 11in;
@@ -1115,12 +1135,14 @@ table.sidebar {
     position: absolute;
     bottom: 1px;
     right: 1px;
+    z-index: -1;
   }
 
   .print-bottom-left {
     position: absolute;
     bottom: 1px;
     left: 1px;
+    z-index: -1;
   }
 
   .screen-only {
@@ -1134,6 +1156,11 @@ table.sidebar {
     padding: 0px;
     margin: 0px;
     color: @foreground-color;
+  }
+
+  blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   /* Enable this if you want to print with
@@ -1154,7 +1181,7 @@ table.sidebar {
 
   .statblock {
     box-shadow: 0 0 0.5em #616161;
-    margin: 0.25em;
+    margin: 1.0em 0.25em;
     filter: opacity(1);
     -webkit-filter: opacity(1);
   }
@@ -1178,8 +1205,7 @@ table.sidebar {
     page-break-after: always;
     overflow: hidden;
 
-    &:after {
-      content: '';
+    .footer-background {
       position: absolute;
       bottom: 0.1in;
       left: 0;
@@ -1187,17 +1213,6 @@ table.sidebar {
       height: 0.5in;
       width: 8.5in;
       background-size: 8.5in 0.5in;
-    }
-
-    &:nth-of-type(odd) {
-      .footer-page-number {
-        right: unset;
-        left: 2px;
-      }
-
-      &:after {
-        transform: scaleX(-1);
-      }
     }
 
     .page-content {
@@ -1260,5 +1275,13 @@ table.sidebar {
     display: flex;
     -webkit-column-break-after: always;
     -moz-column-break-after: always;
+  }
+
+  .print-float-left {
+    float: left;
+  }
+
+  .print-float-right {
+    float: right;
   }
 }
