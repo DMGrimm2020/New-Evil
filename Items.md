@@ -3,6 +3,7 @@ name: Items
 slug: items
 pdf-page-style: multi-column
 order: 4
+include-in: all
 ---
 
 # Items
