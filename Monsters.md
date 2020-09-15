@@ -122,17 +122,17 @@ actions:
     description: "Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
 ```
 
+(print-column)
+
 ### Aging NPC's
 | Age | Str | Dex | Con | Int | Wis | Cha |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Infant    | +2 | +0 | +1 | +1 | +1 | +1 |
-| Young     | +2 | +0 | +1 | +1 | +1 | +1 |
-| Adult     | +2 | +0 | +1 | +1 | +1 | +1 |
+| Infant    | +2 | +0 | +2 | +0 | +0 | +0 |
+| Young     | +2 | +0 | +2 | +0 | +0 | +0 |
+| Adult     | +2 | +0 | +2 | +0 | +0 | +0 |
 | Middle    | -2 | +0 | +1 | +1 | +1 | +1 |
 | Old       | -2 | +0 | +1 | +1 | +1 | +1 |
 | Venerable | -2 | +0 | +1 | +1 | +1 | +1 |
-
-(print-column)
 
 For those that want to have differnt race's age's. Go two size's down off the original creature's stats.
 
@@ -143,13 +143,15 @@ Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
 **Infant Orc.** This is infant orc entering the world.
 
-**Young Orc.** This is young orc just starting out in life.
+**Young Orc.** This is young orc just starting out in life. At this stage. The young orc goes out with older orcs in raiding parties.
 
-**Middle Orc.** This is middle age orc.
+**Middle Orc.** This is middle age orc. The middle orc that have made it to this life stage being to be someone in their tribe.
 
-**Old Orc.** This is old age orc.
+**Old Orc.** This is old age orc. The older orc have learned how the real world works just beyound their raiding lands.
 
-**Venerable Orc.** This is venerable age orc.
+**Venerable Orc.** This is venerable age orc. The venerable orc that make it to this stage will teach their young that want to list.
+
+(print-page)
 
 ```Monster {.gray}
 id: 
@@ -159,17 +161,17 @@ size: Tiny
 type: humanoid (orc)
 alignment: chaotic evil
 ac: 11 (natural armor)
-hp: 4 (1d4 + 2)
+hp: 3 (1d4 + 1)
 speed: 20 ft.
 str: 12
 dex: 12
-con: 14
-int: 5
-wis: 9
-cha: 8
+con: 12
+int: 7
+wis: 11
+cha: 10
 role: enemy
-skills: Intimidation +0
-senses: darkvision 30 ft., passive Perception 10
+skills: Intimidation +2
+senses: darkvision 60 ft., passive Perception 10
 languages: Common, Orc
 challenge: 1/8
 environments: arctic, forest, grassland, hill, mountain, swamp, underdark
@@ -183,7 +185,7 @@ actions:
     description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 + 1 piercing damage."
 ```
 
-(print-page)
+(print-column)
 
 ```Monster {.gray}
 id: 
@@ -197,12 +199,12 @@ hp: 5 (1d6 + 2)
 speed: 25 ft.
 str: 14
 dex: 12
-con: 15
-int: 6
-wis: 10
-cha: 9
+con: 14
+int: 7
+wis: 11
+cha: 10
 role: enemy
-skills: Intimidation +1
+skills: Intimidation +2
 senses: darkvision 60 ft., passive Perception 10
 languages: Common, Orc
 challenge: 1/2
@@ -219,7 +221,7 @@ actions:
     description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
 ```
 
-(print-column)
+(print-page)
 
 ```Monster {.gray}
 id: 
@@ -255,7 +257,7 @@ actions:
     description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
 ```
 
-(print-page)
+(print-column)
 
 ```Monster {.gray}
 id: 
@@ -291,7 +293,7 @@ actions:
     description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 4 (1d6 + 1) piercing damage."
 ```
 
-(print-column)
+(print-page)
 
 ```Monster {.gray}
 id: 
@@ -327,7 +329,7 @@ actions:
     description: "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 3 (1d6) piercing damage."
 ```
 
-(print-page)
+(print-column)
 
 #### Remorhaz
 The heat secretion of a remorhaz, thrym, is valuable as a component for heat-related magical items and can be sold to alchemists for 5-10 gold pieces per flask. The remorhaz will contain 10 flasks worth of thrym per Hit Die. Environments: Arctic
@@ -366,7 +368,7 @@ actions:
     description: "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) piercing damage plus 3 (1d6) fire damage."  
 ```
 
-(print-column)
+(print-page)
 
 ```Monster {.gray}
 id: 
@@ -403,7 +405,7 @@ actions:
   - description: "If the remorhaz takes 40 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 15 feet of the remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone."  
 ```
 
-(print-page)
+(print-column)
 
 #### Skeleton
 Something or someone had it where the resting place was disturbed.
@@ -450,7 +452,7 @@ actions:
     description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) slashing damage."
 ```
 
-(print-column)
+(print-page)
 
 ```Monster {.gray}
 id: 
@@ -486,7 +488,7 @@ actions:
     description: "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
 ```
 
-(print-page)
+(print-column)
 
 ```Monster {.gray}
 id: 
@@ -522,6 +524,8 @@ actions:
     description: "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
 ```
 
+(print-page)
+
 ```Monster {.gray}
 id: 
 name: Orc Skeleton
@@ -556,7 +560,7 @@ actions:
     description: "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
 ```
 
-(print-page)
+(print-column)
 
 #### Hippogriff
 The hippogriff eggs are worth 1,000 gp. As the hipporgriff gets to infant stage in life can be worth 2,000 gp. When raising a infant hipporgriff. It will need to be taught how to fly when it gets to the younger stage in life. Young hipporgriff can be worth 3,000 gp. When the hippogriff get to adult age. The hippogriff can be more trouble then it is worth.
@@ -596,7 +600,7 @@ actions:
     description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 1) slashing damage."
 ```
 
-(print-column)
+(print-page)
 
 ```Monster {.gray}
 id: 
