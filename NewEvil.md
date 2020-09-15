@@ -8,7 +8,7 @@ order: 2
 # New Evil
 
 ## Introduction
-Our story takes place in the Whispering Forest, an ancient forest that over the years became smaller and smaller due too many communities rising and needing more resources. The individual players hears about a rumor among the land. A higher number of people have been taken by lizardfolk just outside of Whispering Forest. The players took an interest in this rumor to see if it was true just like many others have. When the players gather into Bonewood deciding to join up with a trade carven heading out too Nealion. Thinking it’s safer to travel in numbers. The adventurers will be offered a quest to investigate these lizardfolk and see what they are up too. After which, the party will decide on whether to help the lizardfolk or let a new evil reign over the region.
+Our story takes place in the Whispering Forest, an ancient forest that over the years became smaller and smaller due too many communities rising and needing more resources. The players hear about a rumor among the land that a huge number of people have been taken by lizardfolk just outside of Whispering Forest. The players take an interest in this rumor to see if it was true just like many others have. When the players gather in Bonewood, they decide to join up with a trade caravan heading out towards the village of Nealion. The adventurers will be offered a quest to investigate these lizardfolk and see what they are up too. After which, the party will decide on whether to help the lizardfolk or let a new evil reign over the region.
 
 # Story Overview
 A dragon is trying to figure out a way to live forever.
