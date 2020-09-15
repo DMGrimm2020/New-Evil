@@ -3,17 +3,18 @@ name: Side Quest
 slug: side-quest
 pdf-page-style: multi-column
 order: 3
+include-in: all
 ---
 
 # Side Quest
 
 #### Side Quest 1. Orc Troublies
 
-Four Orcs are found together raiding. 1 [Orc](/monster/orc), 3 [Young Orc](/monster/young-orc). When searching the orcs and succeed on a DC 11 Intelligence (Investigation) check. The Orc Leader is carrying [Starburst Turquoise Crystal p6](/Items.md) that hangs on the hilt of his Greataxe, a pair of engraved bone dice (worth 25 gp), and rolls off [VGM p90](/images/OrcTable.jpg). The Younger Orcs are carrying a carved bone statuette of gruumsh (worth 25 gp), & roll off [VGM p90](/images/OrcTable.jpg) for each orc. *(Beyond 4 player's, add 1 Young Orc for each player added. Include carved bone statuette & roll table.)*
+Four Orcs are found together raiding. 1 [Orc](/monster/orc), 3 [Young Orc](/monster/young-orc). When searching the orcs and succeed on a DC 11 Intelligence (Investigation) check. The Orc Leader is carrying [Starburst Turquoise Crystal p6](items) that hangs on the hilt of his Greataxe, a pair of engraved bone dice (worth 25 gp), and roll off **Orc Trophies**. The Younger Orcs are carrying a carved bone statuette of gruumsh (worth 25 gp), & roll off **Orc Trophies** for each orc. *(Beyond 4 player's, add 1 Young Orc for each player added. Include carved bone statuette & roll table.)*
 
 ![VGM p90](images/OrcTable.jpg =500x)
 
-**Source:** [VGM p90]()
+**Source: VGM p90**
 
 #### Side Quest 2. Capture or Kill Pseudodragon
  The local scout will tell the party about a spot just South of Nealion.
