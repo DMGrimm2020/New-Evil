@@ -3,6 +3,7 @@ name: Credit
 slug: credit
 pdf-page-style: multi-column
 order: 0
+include-in: all
 ---
 
 **Credits**
@@ -15,4 +16,4 @@ order: 0
 
 **Editier:** Caligirl, VindicationWar are from Discord.
 
-**Graphic Designer:** 
+**Graphic Designer:** Tyler Grimm
