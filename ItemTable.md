@@ -3,6 +3,7 @@ name: Item Table Chart
 slug: item-table-chart
 pdf-page-style: multi-column
 order: 8
+include-in: all
 ---
 
 | d10 | Simple Melee Weapon | Cost | Damage | Weight | Properties |
