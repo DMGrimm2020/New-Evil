@@ -7,6 +7,15 @@ order: 4
 
 # Items
 
+#### Cloak of Elvenkind
+Wondrous item, *uncommon (requires attunement)*
+
+While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action. **DMG p158**
+
+**Lore.** Elven wizards would make this cloak for their fellow elven community in order to help hide from other creatures or get the jump on them.
+
+*Caster Level:* 3rd; *Prerequisites:* Invisibility; *Market Price:* 1d6 x 100; *Tool:* Leatherworker's; *Race:* Elven; *Component:* An eyelash encased in gum arabic, Four Pseudodragon Hides; *Weight:* 1 lb.
+
 #### Ring of Stretch
 Ring, *rare (requires attunement)*
 
@@ -15,6 +24,16 @@ A target’s size double’s in all dimensions, and its weight is multiplied by 
 **Lore.** Dwarfs would make these ring's in order for them to fight back the hill giants. In which the hill giants where once they’re slaves and now are their enemies. The ring engraved with dwarven runes. It once tide to Dwarven Clan (Name). If it's found. The dwarfs would like it returned to where it once belonged.
 
 *Caster Level:* 6th; *Prerequisites:* Enlarge/Reduce; *Market Price:* 2d10 × 1,000; *Tool:* Jeweler's; *Component:* A pinch of powered iron, Object (Signet Ring 5 gp 0.5 lb.); *Weight:* 0.5 lb.
+
+#### Starburst Turquoise Crystal
+Wondrous item, *uncommon (requires attunement by a wizard)*
+
+You can use the crystal as a spellcasting focus for your wizard spells.
+This crystal has 3 charges. While holding it, you can expend 1 charge as an action to cast the message spell from it. The crystal regains 1d3 expended charges daily at dawn.
+
+**Lore.** Elven wizards turn their focus into something more. The starburst crystal is in the shape of an exploding star that ranges in color from opaque light blue-green with copper wire wrapped around it. They favor these crystals because they are a catalyst from their god Corellon’s creation.
+
+*Caster Level:* 3rd; *Prerequisites:* Message *Market Price:* 1d6 x 100; *Tool:* Jeweler’s *Component:* A short piece of copper wire, Gem (Turquoise); *Weight:* 1 lb.
 
 #### Wonder of Condense
 Wondrous item, *rare (requires attunement)*
