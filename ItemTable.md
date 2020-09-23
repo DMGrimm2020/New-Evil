@@ -1,12 +1,12 @@
 ---
 name: Item Table Chart
 slug: item-table-chart
-pdf-page-style: multi-column
-order: 8
+pdf-page-style: single-column
+order: 9
 include-in: all
 ---
 
-| d10 | Simple Melee Weapon | Cost | Damage | Weight | Properties |
+| D10 | Simple Melee Weapon | Cost | Damage | Weight | Properties |
 |:---:|:---|:---:|:---|:---:|:---|
 | 1 | Club | 1 sp | 1d4 bludgeoning | 2 lb. | Light |
 | 2 | Dagger | 2 gp | 1d4 piercing | 1 lb. | Finesse, Light, Thrown (range 20/60) |
@@ -20,15 +20,16 @@ include-in: all
 | 0 | Spear | 1 gp | 1d6 piercing | 3 lb. | Thrown (range 20/60), Versatile (1d8)|
 
 
-| d4 | Simple Range Weapon | Cost | Damage | Weight | Properties |
+| D4 | Simple Range Weapon | Cost | Damage | Weight | Properties |
 |:---:|:---|:---:|:---|:---:|:---|
 | 1 | Crossbow, Light | 25 gp | 1d8 piercing | 5 lb. | Ammunition (range 80/320), Loading, Two-handed |
 | 2 | Dart | 5 cp | 1d4 piercing | 1/4 lb. | Finesse, Thrown (range 20/60) |
 | 3 | Shortbow | 25 gp | 1d6 piercing | 2 lb. |  Ammunition (range 80/320), Two-handed |
 | 4 | Sling | 1 sp | 1d4 bludgeoning | - | Ammunition (range 30/120) |
 
+(print-page)
 
-| d18 | Martial Melee Weapon | Cost | Damage | Weight | Properties |
+| D18 | Martial Melee Weapon | Cost | Damage | Weight | Properties |
 |:---:|:---|:---:|:---|:---:|:---|
 | 1 | Battleaxe | 10 gp | 1d8 slashing | 4 lb. | Versatile (1d10) |
 | 2 | Flail | 10 gp | 1d8 bludgeoning | 2 lb. | - |
@@ -50,7 +51,7 @@ include-in: all
 | 18 | Whip | 2 gp | 1d4 slashing | 3 lb. | Finesse, Reach |
 
 
-| d5 | Martial Range Weapon | Cost | Damage | Weight | Properties |
+| D5 | Martial Range Weapon | Cost | Damage | Weight | Properties |
 |:---:|:---|:---:|:---|:---:|:---|
 | 1 | Blowgun | 10 gp | 1 piercing | 1 lb. | Ammunition (range 250/100), Loading |
 | 2 | Crossbow, Hand | 75 gp | 1d6 piercing | 3 lb. | Ammunition (range 30/120), Light, Loading |
