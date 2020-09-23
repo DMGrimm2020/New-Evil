@@ -9,7 +9,7 @@ include-in: all
 # Monsters
 
 #### Dwarven Citizen
-This is your everyday dwarven citizen. Environments: Hill, Mountain, Underdark
+Dwarven citizen living their lifes day to day. Environments: Hill, Mountain, Underdark
 
 ```Monster {.gray}
 id: 
@@ -37,7 +37,7 @@ image:
 token: 
 traits:
   - name: Dwarven Resilience
-    description: "The dwarf has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+    description: "The dwarf has advantage on saving throws against poison, and has resistance against poison damage."
 actions:
   - name: Battleaxe
     description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands."  
@@ -48,7 +48,7 @@ actions:
 (print-column)
 
 #### Elven Citizen
-This is your everyday elven citizen. Environments: Forest, Underdark
+Elven citizen living their lifes day to day. Environments: Forest, Underdark
 
 ```Monster {.gray}
 id: 
@@ -87,7 +87,7 @@ actions:
 (print-page)
 
 #### Gnomish Citizen
-This is your everyday gnomish citizen. Environments: Hill, Forest, Underdark
+Gnomish citizen living their lifes day to day. Environments: Hill, Forest, Underdark
 
 ```Monster {.gray}
 id: 
@@ -142,15 +142,15 @@ For those that want to have differnt race's age's. Go two size's down off the or
 #### Orc Life Stages
 Environments: Arctic, Forest, Grassland, Hill, Mountain, Swamp, Underdark
 
-**Infant Orc.** This is infant orc entering the world.
+**Infant Orc.** Infant orc entering the world.
 
-**Young Orc.** This is young orc just starting out in life. At this stage. The young orc goes out with older orcs in raiding parties.
+**Young Orc.** Young orc just starting out in life. At this stage the young orc goes out with older orcs in raiding parties.
 
-**Middle Orc.** This is middle age orc. The middle orc that have made it to this life stage being to be someone in their tribe.
+**Middle Orc.** Middle age orc. The middle orc that have made it to this life stage being to be someone in their tribe.
 
-**Old Orc.** This is old age orc. The older orc have learned how the real world works just beyound their raiding lands.
+**Old Orc.** Old age orc. The older orc have learned how the real world works just beyound their raiding lands.
 
-**Venerable Orc.** This is venerable age orc. The venerable orc that make it to this stage will teach their young that want to list.
+**Venerable Orc.** Venerable age orc. The venerable orc that make it to this stage will teach their young that want to list.
 
 (print-page)
 
@@ -183,7 +183,7 @@ traits:
     description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
 actions: 
   - name: Bite
-    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 1 + 1 piercing damage."
+    description: "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1 + 1) piercing damage."
 ```
 
 (print-column)
@@ -208,7 +208,7 @@ role: enemy
 skills: Intimidation +2
 senses: darkvision 60 ft., passive Perception 10
 languages: Common, Orc
-challenge: 1/2
+challenge: 1/4
 environments: arctic, forest, grassland, hill, mountain, swamp, underdark
 image: 
 token: 
@@ -216,8 +216,6 @@ traits:
   - name: Aggressive
     description: "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
 actions:
-  - name: Greataxe
-    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (1d12 + 2) slashing damage."  
   - name: Javelin
     description: "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
 ```
@@ -638,3 +636,53 @@ actions:
   - name: Claws
     description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage."
 ```
+
+(print-column)
+
+```Monster {.gray}
+id: 
+name: Pseudodragon
+slug: pseudodragon
+size: Tiny
+type: dragon
+alignment: neutral good
+ac: 13 (natural armor)
+hp: 7 (2d4 + 2)
+speed: 15 ft., fly 60 ft.
+str: 6
+dex: 15
+con: 13
+int: 10
+wis: 12
+cha: 10
+role: enemy
+skills: perception +3, stealth +4
+senses: blindsight 10 ft., darkvision 60 ft., passive Perception 13
+languages: understands Common and Draconic but can't speak
+challenge: 1/4
+image: 
+environments: coastal, desert, forest, hill, mountain, urban
+token: 
+traits:
+  - name: Chameleon Skin
+    description: "The pseudodragon has advantage on Dexterity (Stealth) checks made to hide."
+  - name: Keen Senses
+    description: "The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell."
+  - name: Limited Telepathy
+    description: "The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+  - name: Magic Resistance
+    description: "The pseudodragon has advantage on saving throws against spells and other magical effects."
+actions:
+  - name: Bite
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage."  
+  - name: Sting
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake."
+```
+
+(print-page)
+
+>**VARIANT: PSEUDODRAGON FAMILIAR**
+>
+>Some pseudodragons are willing to serve spellcasters as a familiar. Such pseudodragons have the following trait.
+>
+>**Familiar.** The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.
