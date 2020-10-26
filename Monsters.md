@@ -686,3 +686,151 @@ actions:
 >Some pseudodragons are willing to serve spellcasters as a familiar. Such pseudodragons have the following trait.
 >
 >**Familiar.** The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.
+
+(print-page)
+
+#### Soldier
+
+```Monster {.gray}
+id: 
+name: Soldier
+slug: soldier
+size: Medium
+type: humanoid (any race)
+alignment: any alignment
+ac: 18 (chain mail, shield)
+hp: 11 (2d8 + 2)
+speed: 30 ft.
+str: 13
+dex: 12
+con: 12
+int: 10
+wis: 11
+cha: 10
+role: enemy
+skills: Perception +2
+senses: passive Perception 12
+languages: any one language
+challenge: 1/4
+environments: urban
+image: 
+token: 
+actions:
+  - name: Spear
+    description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+```
+
+(print-column)
+
+#### Undead Soldier
+
+```Monster {.gray}
+id: 
+name: Undead Soldier
+slug: undead-soldier
+size: Medium
+type: humanoid (any race)
+alignment: any alignment
+ac: 18 (chain mail, shield)
+hp: 13 (2d8 + 4)
+speed: 30 ft.
+str: 13
+dex: 12
+con: 14
+int: 3
+wis: 6
+cha: 5
+role: enemy
+saving throws: Wis +0
+damge vulnerabilites: slashing
+damage resistances: bludgeoning, piercing from nonmagical attacks
+damage immunities: necrotic, poison
+condition immunites: charmed, exhaustion, frightened, paralyzed, poisoned
+senses: darkvision 60 ft., passive Perception 8
+languages: understands one language it spoke in life but can't speak
+challenge: 1/4
+environments: urban
+image: 
+token: 
+traits:
+  - name: Undead Fortitude
+    description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+actions:
+  - name: Spear
+    description: "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+```
+
+(print-page)
+
+#### Bodyguard
+Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.
+
+```Monster {.gray}
+id: 
+name: Bodyguard
+slug: bodyguard
+size: Medium
+type: humanoid (any race)
+alignment: any alignment
+ac: 18 (chain mail, shield)
+hp: 26 (4d8 + 8)
+speed: 30 ft.
+str: 15
+dex: 12
+con: 14
+int: 10
+wis: 11
+cha: 11
+role: enemy
+skills: Perception +2
+senses: passive Perception 12
+languages: any one language
+challenge: 1/2
+environments: urban
+image: 
+token: 
+actions:
+  - name: Longsword
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+```
+
+(print-column)
+
+#### Undead Bodyguard
+
+```Monster {.gray}
+id: 
+name: Undead Bodyguard
+slug: undead-bodyguard
+size: Medium
+type: humanoid (any race)
+alignment: any alignment
+ac: 18 (chain mail, shield)
+hp: 30 (4d8 + 12)
+speed: 30 ft.
+str: 15
+dex: 12
+con: 16
+int: 3
+wis: 6
+cha: 5
+role: enemy
+saving throws: Wis +0
+damge vulnerabilites: slashing
+damage resistances: bludgeoning, piercing from nonmagical attacks
+damage immunities: necrotic, poison
+condition immunites: charmed, exhaustion, frightened, paralyzed, poisoned
+senses: darkvision 60 ft., passive Perception 8
+languages: understands one language it spoke in life but can't speak
+challenge: 1/2
+environments: urban
+image: 
+token: 
+traits:
+  - name: Undead Fortitude
+    description: "If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead."
+actions:
+  - name: Longsword
+    description: "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+```
+
