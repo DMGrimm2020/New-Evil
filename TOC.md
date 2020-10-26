@@ -6,7 +6,7 @@ order: 1
 include-in: all
 ---
 
-# Table of Contents
+# Contents
 
 
 ### [New Evil ... 3](new-evil)
@@ -67,16 +67,16 @@ include-in: all
 ### [NPCs ... 18](npc)
 ### [Currency Table Chart ... 20](currency-table-chart)
 
-[Standard Echange Rate Currency ... 20](currency-table-chart)
+[Standard Echange Rate Currency ... 20](.currency-table-chart)
 
-[Main Race Currency Echange Rate For Goods ... 20](currency-table-chart)
+[Main Race Currency Echange Rate For Goods ... 20](.currency-table-chart)
 
-[Bank Currency Echange Rate ... 20](currency-table-chart)
+[Bank Currency Echange Rate ... 20](.currency-table-chart)
 
-[Currency Treasure Echange Rate ... 20](currency-table-chart)
+[Currency Treasure Echange Rate](.currency-table-chart)
 
-[Black Market Currency Treasure Echange Rate ... 20](currency-table-chart)
+[Black Market Currency Treasure Echange Rate](.currency-table-chart) {.part}
 
-### [Crafting Magic Items Table ... 21](crafting-magic-items-table)
+### [Crafting Magic Items Table ... 21](.crafting-magic-items-table)
 
 {.toc}
